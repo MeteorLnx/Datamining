@@ -1,0 +1,83 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="X8
+", weight=1]
+"1" [shape=box, style=filled, label="X1
+", weight=2]
+0 -> 1 [ label = "integrate"];
+"2" [shape=box, style=filled, label="N
+(1)
+", weight=3]
+1 -> 2 [ label = "light"];
+"3" [shape=box, style=filled, label="N
+(3)
+", weight=3]
+1 -> 3 [ label = "mid"];
+"4" [shape=box, style=filled, label="X2
+", weight=3]
+1 -> 4 [ label = "no"];
+"5" [shape=box, style=filled, label="N
+(1)
+", weight=4]
+4 -> 5 [ label = "branch"];
+"6" [shape=box, style=filled, label="Y
+(1)
+", weight=4]
+4 -> 6 [ label = "no"];
+"7" [shape=box, style=filled, label="N
+(1/1)
+", weight=4]
+4 -> 7 [ label = "trunk"];
+"8" [shape=box, style=filled, label="N
+(1)
+", weight=3]
+1 -> 8 [ label = "serious"];
+"9" [shape=box, style=filled, label="X1
+", weight=2]
+0 -> 9 [ label = "no"];
+"10" [shape=box, style=filled, label="Y
+(3)
+", weight=3]
+9 -> 10 [ label = "light"];
+"11" [shape=box, style=filled, label="N
+(1)
+", weight=3]
+9 -> 11 [ label = "mid"];
+"12" [shape=box, style=filled, label="N
+(1)
+", weight=3]
+9 -> 12 [ label = "no"];
+"13" [shape=box, style=filled, label="Y
+(1)
+", weight=3]
+9 -> 13 [ label = "serious"];
+"14" [shape=box, style=filled, label="X1
+", weight=2]
+0 -> 14 [ label = "part"];
+"15" [shape=box, style=filled, label="Y
+(4/3)
+", weight=3]
+14 -> 15 [ label = "light"];
+"16" [shape=box, style=filled, label="Y
+(2)
+", weight=3]
+14 -> 16 [ label = "mid"];
+"17" [shape=box, style=filled, label="X3
+", weight=3]
+14 -> 17 [ label = "no"];
+"18" [shape=box, style=filled, label="N
+(3)
+", weight=4]
+17 -> 18 [ label = "negative"];
+"19" [shape=box, style=filled, label="Y
+(1)
+", weight=4]
+17 -> 19 [ label = "positive"];
+"20" [shape=box, style=filled, label="Y
+(1)
+", weight=3]
+14 -> 20 [ label = "serious"];
+{rank=same; 0;};
+{rank=same; 1;9;14;};
+{rank=same; 2;3;4;8;10;11;12;13;15;16;17;20;};
+{rank=same; 5;6;7;18;19;};
+}
