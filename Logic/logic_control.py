@@ -9,7 +9,7 @@ import operator
 import re
 import sys
 import copy
-#sys.path.append('D:\\develop\\Python\\DataMining')  # 在pycharm中运行时可不加此语句
+sys.path.append('D:\\develop\\Python\\DataMining')  # 在pycharm中运行时可不加此语句
 
 
 class MainWindow(object):
