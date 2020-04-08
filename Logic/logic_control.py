@@ -1,4 +1,5 @@
 import sys
+sys.path.append('D:\\develop\\Python\\DataMining')  # 在pycharm中运行时可不加此语句，路径记得修改为自己的路径
 from PyQt5 import QtCore, QtWidgets, QtGui
 from GUI import mainwindow_nologic, addDataDialog, operatorWidget, addOperatorDialog, loginDialog, titleBar
 from Logic import databaseOperation
@@ -9,7 +10,6 @@ import operator
 import re
 import sys
 import copy
-sys.path.append('D:\\develop\\Python\\DataMining')  # 在pycharm中运行时可不加此语句
 
 
 class MainWindow(object):
