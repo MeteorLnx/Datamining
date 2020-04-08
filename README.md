@@ -4,7 +4,7 @@
 
 注：许多功能还未完善，如保存设计好的项目，目前只能保存操作符，无法保存具体的参数，且保存的格式暂时是随意设置的。
 
-如果在命令行中启动，则需先进入/DataMining/Logic/目录下，再运行logic_control.py文件
+如果在命令行中启动，则需先进入/DataMining/Logic/目录下，再运行logic_control.py文件    
 建议使用Pycharm，在IDE中运行
 
 程序界面介绍
