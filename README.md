@@ -57,24 +57,42 @@ help区：查看帮助
 --------------------------------
 ## 项目结构介绍
 
-DataMining/
-    dataset：存放数据集
+DataMining/     
+    dataset：存放数据集     
     font：存放字体图标
+    
     icon：存放图标
+    
     process：存放运算程序（不保存操作符的参数设置）
+    
     qss：类似css，界面美化
+    
     temp：存放临时文件，如决策树生成的图
+    
     GUI/
+    
         addDataDialog.py：添加数据对话框的界面设计
+        
         addOperatorDialog.py：添加操作符对话框的界面设计
+        
         editClassDialog.py：编辑类别对话框的界面设计
+        
         loginDialog.py：登录对话框的界面设计
+        
         mainwindow_nologic.py：主窗口的界面设计
+        
         operatorWidget.py：操作符图形设计以及其对应的核心程序
+        
         selectAttributeDialog.py：选择属性对话框的界面设计
+        
         titleBar.py：自定义标题栏与自定义对话框
+        
     Logic/
+    
         databaseOperation.py：封装数据库操作
+        
         help_message.json：存放帮助信息
+        
         logic_control.py：程序逻辑，操纵界面
+        
         pandasModel.py：自定义pandas的Dataframe在qyqt中的表格形式展示
